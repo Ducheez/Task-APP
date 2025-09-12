@@ -1,0 +1,21 @@
+Git workflow used for this assignment:
+
+1. Clone the repo:
+   git clone https://github.com/mundabenj/fol.git
+   cd fol
+
+2. Create a feature branch:
+   git checkout -b feature/assignment
+
+3. Make changes (edit files: conf.php, mailing.php, users_list.php, GIT_WORKFLOW.txt)
+
+4. Stage changes:
+   git add conf.php mailing.php users_list.php GIT_WORKFLOW.txt
+
+5. Commit:
+   git commit -m "Add email validation + Gmail SMTP; add users list; add workflow doc"
+
+6. Push branch:
+   git push origin feature/assignment
+
+
